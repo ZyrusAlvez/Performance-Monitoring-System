@@ -1,9 +1,11 @@
 import Login from "@/component/auth/Login"
+import Verification from "@/component/auth/Verification"
+import ChangePassword from "@/component/auth/ChangePassword"
 
 const page = () => {
   return (
     <div>
-      <Login />
+      <ChangePassword />
     </div>
   )
 }
