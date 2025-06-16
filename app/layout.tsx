@@ -19,7 +19,7 @@ export default function RootLayout({ children }: Props) {
         />
       </head>
             
-      <body className="flex justify-center items-center h-screen">
+      <body className="flex justify-center items-center h-screen bg-gray-400">
           <SessionProvider>
             {children}
           </SessionProvider>
